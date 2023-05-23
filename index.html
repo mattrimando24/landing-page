@@ -8,34 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <ul class="left-header">
-            <li>Header Logo</li>
-        </ul>
-        <ul class="right-header">
-            <li><a href="#section-1">header link one</a></li>
-            <li><a href="#section-2">header link two</a></li>
-            <li><a href="#section-3">header link three</a></li>
-        </ul>
-    </div>
-    <div class="content">
-        <div class="container">
+    <div class="dark-background">
+        <div class="header">
+            <div class="nav">
+                <div class="left-header">
+                    <p id="logo">Header Logo</p>
+                </div>
+                <div class="right-header">
+                    <ul>
+                        <li><a href="#section-1">header link one</a></li>
+                        <li><a href="#section-2">header link two</a></li>
+                        <li><a href="#section-3">header link three</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="hero">
-                <div class="header-text">
-                    This website is awesome
+                <div class="hero-text">
+                    <div class="header-text">
+                        This website is awesome
+                    </div>
+                    <div class="text">
+                        This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+                    </div>
+                    <div>
+                        <button class="first-button">Sign up</button>
+                    </div>
                 </div>
-                <div class="text">
-                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
+                <div class="hero-image"><img class="block" src="./images/placeholder.jpg" alt="placeholder"></a>
                 </div>
-                <div class="button">
-                    <button>Sign Up</button>
-                </div>
-            </div>
-            <div class="image">
             </div>
         </div>
-        <div class="container">
-            <div class="title">Some random information.</div>
+    </div>
+    <div class="profiles">
+        <div class="title">Some random information.</div>
+        <div class="profile-cards">
             <div class="card">
                 <img>
                 <div class="subtext">this is some subtext under an illustration or image</div>
@@ -53,23 +59,24 @@
                 <div class="subtext">this is some subtext under an illustration or image</div>
             </div>
         </div>
-        <div class="container">
-            <div class="quote"></div>
-            <div class="speaker"></div>
-        </div>
-        <div class="container">
-            <div class="contact">
-                <div class="contact-header">
-                    Call to action! It's time!
-                </div>
-                <div class="contact-text">
-                    Sign up for out product by clicking that button right over there!
-                </div>
-                <div>
-                    <button>Sign up</button>
-                </div>
+    </div>
+    <div class="quote-block">
+            <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+            <div class="speaker">-Thor, God of Thunder</div>
+    </div>
+    <div class="container">
+        <div class="contact">
+            <div class="contact-header">
+                Call to action! It's time!
+            </div>
+            <div class="contact-text">
+                Sign up for out product by clicking that button right over there!
+            </div>
+            <div>
+                <button>Sign up</button>
             </div>
         </div>
+    </div>
     </div>
     <div class="footer">
         Copyright © The Odin Project 2021

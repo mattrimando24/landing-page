@@ -1,46 +1,65 @@
 body {
-    font-family: Roboto;
-    margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dark-background {
+    background-color: #1f2937
+}
 .header {
     background: #1F2937;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 1em 13em;
 }
 
 .left-header {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
-.right-header {
+.nav {
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-ul {
+.nav ul {
     list-style-type: none;
+    display:flex;
+    gap: 1.5rem;
 }
 
-a {
-    text-decoration: none;
+a:link {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #E5E7EB; 
+    text-decoration: none;
 }
 
 .footer {
     background: #1F2937;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
 
 .hero {
     display: flex;
-    align-items: left;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 7em 0;
+}
+
+.hero-text {
+    display: flex;
     flex-direction: column;
-    background: #1F2937;
-    padding: 24px;
+    gap: 10px;
 }
 
 .header-text {
@@ -52,4 +71,81 @@ a {
 .text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero button {
+    border: none;
+}
+
+.first-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 120px;
+    padding: 7px 1em;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.profiles {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+}
+.profile-cards {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.card img {
+    height: 200px;
+    border-radius: 10px;
+    border: solid #3882f6 4px;
+    width: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    max-width: 200px;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.speaker {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: flex-end;
 }
