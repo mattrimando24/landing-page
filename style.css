@@ -149,3 +149,50 @@ a:link {
     color: #1f2937;
     align-self: flex-end;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.contact {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact-left {
+    margin: 50px;
+}
+
+.contact-right {
+    display: flex;
+    margin: 50px;
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+.second-button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.contact-header {
+    font-size: 24px;
+    font-weight: 900;
+    color: #FFF;
+}
+
+.contact-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
